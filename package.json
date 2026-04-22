@@ -1,0 +1,17 @@
+{
+  "name": "son",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0",
+    "nodemon": "^3.1.14"
+  }
+}
