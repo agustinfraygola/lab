@@ -4,7 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "nodemon index.js"
+    "test": "nodemon index.js",
+    "lint": "eslint .",
+    "format": "prettier . --write"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +15,14 @@
     "express": "^5.2.1",
     "mongoose": "^9.5.0",
     "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "prettier": "^3.8.3"
   }
 }
