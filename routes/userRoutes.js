@@ -8,6 +8,8 @@ route.post("/user", createUser);
 route.put("/user/:id", updateUser);
 route.delete("/user/:id", deleteUser);
 
+route.post("/signup", signup)
+
 export default route
 
 
